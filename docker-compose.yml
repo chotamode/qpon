@@ -1,6 +1,7 @@
 services:
   app:
-    image: labsatquicko/qpon:latest
+    # image: labsatquicko/qpon:latest
+    build: .
     container_name: qpon_app
     ports:
       - "3000:3000"
